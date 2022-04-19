@@ -1,16 +1,236 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</html>
+
+<!doctype html>
+<html lang="pt-b">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
     <title>Filmes Star Wars</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="images/sci-fi-1576164-1334429.png" type="image/x-icon">
-</head>
-<body>
     
+    <link rel="shortcut icon" href="images/sci-fi-1576164-1334429.png" type="image/x-icon">
+
+</head>
+  <body>
+
+ 
+
+    <header class="container header">
+
+      <div class="row">
+        <div class="col-12 area-header">
+          <div class="row">
+            
+            <div class="col-xs-12 col-sm-12 col-md-12  col-lg-2 logos">
+
+              <img src="images/log0_site.png" class="logo">
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-6  col-lg-7 sections">
+              <nav class="nav">  
+              <a class="nav-link active" aria-current="page" href="#">Lançamentos</a>
+              <a class="nav-link" href="#">Em destaque</a>
+              <a class="nav-link" href="#">Avaliações</a>
+              <a class="nav-link" href="#">Entrevistas/Makingofs</a>
+              <a class="nav-link" href="#">Novidades</a>
+              </nav>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 pesquisa">
+
+              <div class="input-group">
+              <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+              <button type="button" class="btn btn-outline-primary"><img src="images/lupa.png" class="lupa"></button>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </header>
+
+    <main class="container main">
+
+      <div class="row">
+        <div class="col-12">
+          
+          <!-- Esta é a parte dos lançamentos que inclui o carrosel-->
+          <div class="row lancamentos_row">
+            
+            <div class="col-12"> <h2 class="titulos Lcenter"> Lançamentos</h2> </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <iframe class="d-block w-100" width="560" height="315" src="https://www.youtube.com/embed/Vf6X4Uamjas" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                  <div class="carousel-item">
+                    <iframe  class="d-block w-100" width="560" height="315" src="https://www.youtube.com/embed/dXHkWE4JSOA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                  
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+            </div> 
+            
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+
+              <h3>Sinopse</h3>
+              <p><strong>O Livro de Boba Fett</strong> acompanha a história de Fett (Temuera Morrison) enquanto ele assume o Palácio de Jabba e se torna o novo Daimyo de Tatooine, contanto com um início bastante focado na escapada do protagonista do poço Sarlacc.</p>
+            
+              <h3>Sinopse</h3>
+              <p>Baseado no famoso personagem de Star Wars, a série acompanha as aventuras de <strong>Obi-Wan Kenobi</strong>, uma década depois dos acontecimentos de A Vingança dos Sith. A trama começa com Obi-Wan cuidando de Luke Skywalker à distância no planeta Tatooine enquanto vive exilado no planeta.</p>
+
+            
+            </div>
 
 
-</body>
+
+
+          </div>
+
+          <div class="row Tdestaque-row">
+            <div class="col-xs-12 col-sm-12 col-md-6  col-lg-3"> 
+              <h2 class="titulos">Em destaque</h2>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6"> </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-6  col-lg-3">
+              <div class="dropdown show central">
+                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Mais
+                </a>
+              
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item" href="#">Classicos</a>
+                  <a class="dropdown-item" href="#">Novos</a>
+                  <a class="dropdown-item" href="#">Historia Vader</a>
+                </div>
+              </div>
+
+            </div>
+
+
+
+          </div>
+
+          <div class="row">
+
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+
+              <a href="https://www.youtube.com/watch?v=JNwNXF9Y6kY" target="_blank"><img src="images/capaDeFilme1.jpg" class="capasDeFilme"></a>
+
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+
+              <a href="https://www.youtube.com/watch?v=bD7bpG-zDJQ" target="_blank"><img src="images/capaDeFilme2.jpg" class="capasDeFilme"></a>
+
+            </div>            
+
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+
+              <a href="https://www.youtube.com/watch?v=8Qn_spdM5Zg" target="_blank"><img src="images/capaDeFilme3.jpg" class="capasDeFilme "></a>
+
+            </div>
+
+          </div>
+
+          <div class="row avaliacoes-row">
+
+            <div class="col-12">
+              <h2 class="titulos">Avaliações</h2>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+              <div class="card central" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Luccas</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Super fan de Star Wars</h6>
+                  <p class="card-text">São meus filmes favoritos da vida, não existe obra igual.</p>
+                  
+                  
+                  
+                </div>
+              </div>
+
+
+
+
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+              <div class="card central" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Jean</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Amante de narrativas</h6>
+                  <p class="card-text">São ótimos filmes, principalmente os clássicos, mas acredito que ficam devendo bastante em alguns aspectos.</p>
+                 
+                  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row offs">
+
+            <div class="col-12">
+
+              <h2 class="titulos">Entrevistas/Making of</h2>
+            </div>
+
+            <div class="col-12">
+
+              
+            </div>
+
+            <div class="col-12">
+
+              
+            </div>
+
+          </div>
+
+        </div> 
+      </div>
+
+      
+    </main>
+
+    <footer class="container footer">
+
+      TODOS OS DIREITOS RESERVADOR
+
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  </body>
 </html>

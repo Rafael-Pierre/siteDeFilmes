@@ -1,7 +1,106 @@
-p { color: red;
+.logo{
+  max-width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-body {
+header{
+  background-color: rgb(210, 216, 214);
+}
 
-    
+.area-header{
+
+  padding: 20px;
+}
+
+.logos{
+
+ 
+}
+
+.sections{
+  
+ 
+}
+
+.pesquisa{
+  
+  
+}
+
+.lupa{
+max-width: 20px;
+
+}
+
+.input-group{
+
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.nav{
+  
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.main{
+  background-image: linear-gradient( to top, rgb(235, 243, 239), white, rgb(227, 236, 227) );
+  
+  margin-top: 20px;
+  
+}
+
+.footer{
+  margin-top: 20px;
+  background-color: rgb(210, 216, 214);
+}
+
+.titulos{
+
+  
+  padding: 20px;
+}
+
+.lcenter{
+
+  text-align: center;
+}
+
+.dropdown{
+
+    padding: 20px;
+}
+
+.capasDeFilme{
+
+  max-width: 250px;
+ 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: 10px;
+  
+  position: relative;
+}
+
+.capasDeFilme:hover{top:-5px;box-shadow:0 5px 5px #666}
+
+.checked {
+  color: orange;
+}
+
+.central{
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card{
+  margin-top: 10px;
 }
